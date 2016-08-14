@@ -1,0 +1,23 @@
+package com.tekdays
+
+class Task {
+
+    String title
+    String notes
+    TekUser assignedTo
+    Date dueDate
+    TekEvent event
+    Boolean completed
+
+    static constraints = {
+        title blank:false
+        notes blank: true, nullable: true, maxsize: 5000
+        assignedTo nullable: true
+        dueDate nullable: true
+        completed nullable: true
+        event nullable: true
+
+    }
+
+    static belongsTo = TekEvent
+}
