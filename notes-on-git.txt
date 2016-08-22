@@ -1,3 +1,5 @@
 git add -A  (adds everything that changed)
 git commit -m "message"
 git status
+
+git pull remote-repo master
