@@ -3,3 +3,13 @@ git commit -m "message"
 git status
 
 git pull remote-repo master
+
+
+
+// defines the remote server and aliases it to origin
+git remote add origin https://github.com/bkafka/TekDays.git
+
+git push -u origin master
+
+
+
